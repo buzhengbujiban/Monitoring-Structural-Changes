@@ -4,8 +4,8 @@
 Detecting structural breakpoints in time series panels is crucial for identifying systemic risks, especially in financial markets. This project introduces a novel method that eliminates temporal correlations by applying **Vector Autoregression (VAR) models** and sequential fluctuation monitoring on the residuals to detect breakpoints. 
 
 ## 📌 Overview
-ABSTRACT
-Detecting structural breakpoints among different sequences in time series panels holds significant practical value, particularly in the financial market area where it can effectively aid in identifying systemic risks. This paper presents a method for structural breakpoint detection that eliminates temporal correlations. The paper adopts the sequential fluctuate detection methods but also expanding them by proposing a procedure that involves fitting a vector autoregression (VAR) model to the time series panel and then conducting sequential Fluctuation Monitoring detection on the residuals to detect the breakpoints. The paper provides a theoretical proof of the rationality and effectiveness of using VAR model residuals for testing, and the results of Monte Carlo simulations also report on the practicality and quality of this method. Empirical analysis aimed at the financial market demonstrates the capability of this method in testing systemic risks in the financial market.
+- ABSTRACT
+- Detecting structural breakpoints among different sequences in time series panels holds significant practical value, particularly in the financial market area where it can effectively aid in identifying systemic risks. This paper presents a method for structural breakpoint detection that eliminates temporal correlations. The paper adopts the sequential fluctuate detection methods but also expanding them by proposing a procedure that involves fitting a vector autoregression (VAR) model to the time series panel and then conducting sequential Fluctuation Monitoring detection on the residuals to detect the breakpoints. The paper provides a theoretical proof of the rationality and effectiveness of using VAR model residuals for testing, and the results of Monte Carlo simulations also report on the practicality and quality of this method. Empirical analysis aimed at the financial market demonstrates the capability of this method in testing systemic risks in the financial market.
 
 
 🔍 **Key Features:**
@@ -38,12 +38,12 @@ The Monte Carlo simulations assess the method’s effectiveness by generating ti
 
 
 📁 Structural-Break-Detection 
-│── 📜 README.md 
-│── 📂 src/ # Source code for breakpoint detection 
-│── 📂 data/ # Sample datasets 
-│── 📂 results/ # Monte Carlo simulation results 
-│── 📂 figures/ # Visualizations & application images 
-│── 📜 requirements.txt # Dependencies 
+- │── 📜 README.md 
+- │── 📂 src/ # Source code for breakpoint detection 
+- │── 📂 data/ # Sample datasets 
+- │── 📂 results/ # Monte Carlo simulation results 
+- │── 📂 figures/ # Visualizations & application images 
+- │── 📜 requirements.txt # Dependencies 
 
 
 
